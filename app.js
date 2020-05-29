@@ -19,7 +19,7 @@ var commentRoutes = require("./routes/comments"),
     indexRoutes = require("./routes/index"),
     reviewRoutes = require("./routes/review");
 
-mongoose.connect('mongodb://localhost:27017/yelp_camp', {
+mongoose.connect('mongodb+srv://Elemento24:Rockstar@2408@cluster0-en5xy.mongodb.net/yelp_camp?retryWrites=true&w=majority', {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: false,
